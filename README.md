@@ -13,15 +13,6 @@ Third-party means code from another project; it can be static or shared.
 
 ## Build
 
-On Linux, examples 1–3 need a C++17 compiler and CMake 3.20+.
-From this repository root, build the calculator:
+Build each project separately by following its README.
 
-```bash
-mkdir build && cd build
-cmake ..
-cmake --build .
-./cal.exe
-```
-
-Build each project separately. For example 4, follow its [setup instructions](4_third-party-libs/README.md#build-and-run);
-it needs CMake 3.28+, extra tools, and network access to build dependencies.
+On Linux, examples 1–3 require a C++17 compiler and CMake 3.20+. Example 4 has additional dependencies and setup steps described in its README.

@@ -1,0 +1,7 @@
+/build/
+/third_party/opencv/
+/third_party/onnxruntime/
+/third_party/build/
+/third_party/install/
+/models/*.onnx
+/dist/

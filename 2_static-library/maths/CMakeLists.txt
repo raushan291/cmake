@@ -11,14 +11,14 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 # Specify the source files for the static library
 set(SOURCES 
-    src/MathFunctions.cpp
+    src/MathsFunctions.cpp
 )
 
 # Add an option to enable or disable advanced math functions
 option(ENABLE_ADVANCED_OPERATIONS "Enable advanced math functions" ON)
 
 # Create static liberary target
-add_library(MathsFunctionsLib STATIC src/MathsFunctions.cpp)
+add_library(MathsFunctionsLib STATIC ${SOURCES})
 
 # Conditally add defenitions based on the option
 if(ENABLE_ADVANCED_OPERATIONS)

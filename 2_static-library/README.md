@@ -12,7 +12,7 @@ From this folder on Linux, with CMake 3.20+ and a C++17 compiler:
 mkdir build && cd build
 cmake ..
 cmake --build .
-./CalculatorMathsExe
+cal-static-library.exe
 ```
 
 Select `6`, then enter `2` and `3` to get `Result: 8`.
